@@ -1,0 +1,197 @@
+{"timestamp": 0.0, "timestamp_cam2": 0.0, "dt": 0.0, "frame_cam0": 0, "frame_cam2": 0, "joint_ids": [], "points": 0}
+{"timestamp": 0.1, "timestamp_cam2": 0.1, "dt": 0.0, "frame_cam0": 1, "frame_cam2": 1, "joint_ids": [], "points": 0}
+{"timestamp": 0.2, "timestamp_cam2": 0.2, "dt": 0.0, "frame_cam0": 2, "frame_cam2": 2, "joint_ids": [], "points": 0}
+{"timestamp": 0.3, "timestamp_cam2": 0.3, "dt": 0.0, "frame_cam0": 3, "frame_cam2": 3, "joint_ids": [], "points": 0}
+{"timestamp": 0.4, "timestamp_cam2": 0.4, "dt": 0.0, "frame_cam0": 4, "frame_cam2": 4, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14], "points": 13}
+{"timestamp": 0.5, "timestamp_cam2": 0.5, "dt": 0.0, "frame_cam0": 5, "frame_cam2": 5, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14], "points": 13}
+{"timestamp": 0.6, "timestamp_cam2": 0.6, "dt": 0.0, "frame_cam0": 6, "frame_cam2": 6, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14], "points": 13}
+{"timestamp": 0.7, "timestamp_cam2": 0.7, "dt": 0.0, "frame_cam0": 7, "frame_cam2": 7, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14], "points": 14}
+{"timestamp": 0.8, "timestamp_cam2": 0.8, "dt": 0.0, "frame_cam0": 8, "frame_cam2": 8, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 0.9, "timestamp_cam2": 0.9, "dt": 0.0, "frame_cam0": 9, "frame_cam2": 9, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.0, "timestamp_cam2": 1.0, "dt": 0.0, "frame_cam0": 10, "frame_cam2": 10, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.1, "timestamp_cam2": 1.1, "dt": 0.0, "frame_cam0": 11, "frame_cam2": 11, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.2, "timestamp_cam2": 1.2, "dt": 0.0, "frame_cam0": 12, "frame_cam2": 12, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.3, "timestamp_cam2": 1.3, "dt": 0.0, "frame_cam0": 13, "frame_cam2": 13, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.4, "timestamp_cam2": 1.4, "dt": 0.0, "frame_cam0": 14, "frame_cam2": 14, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.5, "timestamp_cam2": 1.5, "dt": 0.0, "frame_cam0": 15, "frame_cam2": 15, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.6, "timestamp_cam2": 1.6, "dt": 0.0, "frame_cam0": 16, "frame_cam2": 16, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.7, "timestamp_cam2": 1.7, "dt": 0.0, "frame_cam0": 17, "frame_cam2": 17, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.8, "timestamp_cam2": 1.8, "dt": 0.0, "frame_cam0": 18, "frame_cam2": 18, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 1.9, "timestamp_cam2": 1.9, "dt": 0.0, "frame_cam0": 19, "frame_cam2": 19, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 2.0, "timestamp_cam2": 2.0, "dt": 0.0, "frame_cam0": 20, "frame_cam2": 20, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 2.1, "timestamp_cam2": 2.1, "dt": 0.0, "frame_cam0": 21, "frame_cam2": 21, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 2.2, "timestamp_cam2": 2.2, "dt": 0.0, "frame_cam0": 22, "frame_cam2": 22, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 2.3, "timestamp_cam2": 2.3, "dt": 0.0, "frame_cam0": 23, "frame_cam2": 23, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "points": 15}
+{"timestamp": 2.4, "timestamp_cam2": 2.4, "dt": 0.0, "frame_cam0": 24, "frame_cam2": 24, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 2.5, "timestamp_cam2": 2.5, "dt": 0.0, "frame_cam0": 25, "frame_cam2": 25, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 2.6, "timestamp_cam2": 2.6, "dt": 0.0, "frame_cam0": 26, "frame_cam2": 26, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 2.7, "timestamp_cam2": 2.7, "dt": 0.0, "frame_cam0": 27, "frame_cam2": 27, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 2.8, "timestamp_cam2": 2.8, "dt": 0.0, "frame_cam0": 28, "frame_cam2": 28, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 2.9, "timestamp_cam2": 2.9, "dt": 0.0, "frame_cam0": 29, "frame_cam2": 29, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.0, "timestamp_cam2": 3.0, "dt": 0.0, "frame_cam0": 30, "frame_cam2": 30, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.1, "timestamp_cam2": 3.1, "dt": 0.0, "frame_cam0": 31, "frame_cam2": 31, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 3.2, "timestamp_cam2": 3.2, "dt": 0.0, "frame_cam0": 32, "frame_cam2": 32, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16], "points": 16}
+{"timestamp": 3.3, "timestamp_cam2": 3.3, "dt": 0.0, "frame_cam0": 33, "frame_cam2": 33, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.4, "timestamp_cam2": 3.4, "dt": 0.0, "frame_cam0": 34, "frame_cam2": 34, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.5, "timestamp_cam2": 3.5, "dt": 0.0, "frame_cam0": 35, "frame_cam2": 35, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.6, "timestamp_cam2": 3.6, "dt": 0.0, "frame_cam0": 36, "frame_cam2": 36, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.7, "timestamp_cam2": 3.7, "dt": 0.0, "frame_cam0": 37, "frame_cam2": 37, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.8, "timestamp_cam2": 3.8, "dt": 0.0, "frame_cam0": 38, "frame_cam2": 38, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 3.9, "timestamp_cam2": 3.9, "dt": 0.0, "frame_cam0": 39, "frame_cam2": 39, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.0, "timestamp_cam2": 4.0, "dt": 0.0, "frame_cam0": 40, "frame_cam2": 40, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.1, "timestamp_cam2": 4.1, "dt": 0.0, "frame_cam0": 41, "frame_cam2": 41, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.2, "timestamp_cam2": 4.2, "dt": 0.0, "frame_cam0": 42, "frame_cam2": 42, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.3, "timestamp_cam2": 4.3, "dt": 0.0, "frame_cam0": 43, "frame_cam2": 43, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.4, "timestamp_cam2": 4.4, "dt": 0.0, "frame_cam0": 44, "frame_cam2": 44, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.5, "timestamp_cam2": 4.5, "dt": 0.0, "frame_cam0": 45, "frame_cam2": 45, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.6, "timestamp_cam2": 4.6, "dt": 0.0, "frame_cam0": 46, "frame_cam2": 46, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.7, "timestamp_cam2": 4.7, "dt": 0.0, "frame_cam0": 47, "frame_cam2": 47, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.8, "timestamp_cam2": 4.8, "dt": 0.0, "frame_cam0": 48, "frame_cam2": 48, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 4.9, "timestamp_cam2": 4.9, "dt": 0.0, "frame_cam0": 49, "frame_cam2": 49, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.0, "timestamp_cam2": 5.0, "dt": 0.0, "frame_cam0": 50, "frame_cam2": 50, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.1, "timestamp_cam2": 5.1, "dt": 0.0, "frame_cam0": 51, "frame_cam2": 51, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.2, "timestamp_cam2": 5.2, "dt": 0.0, "frame_cam0": 52, "frame_cam2": 52, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.3, "timestamp_cam2": 5.3, "dt": 0.0, "frame_cam0": 53, "frame_cam2": 53, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.4, "timestamp_cam2": 5.4, "dt": 0.0, "frame_cam0": 54, "frame_cam2": 54, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.5, "timestamp_cam2": 5.5, "dt": 0.0, "frame_cam0": 55, "frame_cam2": 55, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.6, "timestamp_cam2": 5.6, "dt": 0.0, "frame_cam0": 56, "frame_cam2": 56, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.7, "timestamp_cam2": 5.7, "dt": 0.0, "frame_cam0": 57, "frame_cam2": 57, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.8, "timestamp_cam2": 5.8, "dt": 0.0, "frame_cam0": 58, "frame_cam2": 58, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 5.9, "timestamp_cam2": 5.9, "dt": 0.0, "frame_cam0": 59, "frame_cam2": 59, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.0, "timestamp_cam2": 6.0, "dt": 0.0, "frame_cam0": 60, "frame_cam2": 60, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.1, "timestamp_cam2": 6.1, "dt": 0.0, "frame_cam0": 61, "frame_cam2": 61, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.2, "timestamp_cam2": 6.2, "dt": 0.0, "frame_cam0": 62, "frame_cam2": 62, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.3, "timestamp_cam2": 6.3, "dt": 0.0, "frame_cam0": 63, "frame_cam2": 63, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.4, "timestamp_cam2": 6.4, "dt": 0.0, "frame_cam0": 64, "frame_cam2": 64, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.5, "timestamp_cam2": 6.5, "dt": 0.0, "frame_cam0": 65, "frame_cam2": 65, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.6, "timestamp_cam2": 6.6, "dt": 0.0, "frame_cam0": 66, "frame_cam2": 66, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.7, "timestamp_cam2": 6.7, "dt": 0.0, "frame_cam0": 67, "frame_cam2": 67, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.8, "timestamp_cam2": 6.8, "dt": 0.0, "frame_cam0": 68, "frame_cam2": 68, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 6.9, "timestamp_cam2": 6.9, "dt": 0.0, "frame_cam0": 69, "frame_cam2": 69, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.0, "timestamp_cam2": 7.0, "dt": 0.0, "frame_cam0": 70, "frame_cam2": 70, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.1, "timestamp_cam2": 7.1, "dt": 0.0, "frame_cam0": 71, "frame_cam2": 71, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.2, "timestamp_cam2": 7.2, "dt": 0.0, "frame_cam0": 72, "frame_cam2": 72, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.3, "timestamp_cam2": 7.3, "dt": 0.0, "frame_cam0": 73, "frame_cam2": 73, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.4, "timestamp_cam2": 7.4, "dt": 0.0, "frame_cam0": 74, "frame_cam2": 74, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.5, "timestamp_cam2": 7.5, "dt": 0.0, "frame_cam0": 75, "frame_cam2": 75, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.6, "timestamp_cam2": 7.6, "dt": 0.0, "frame_cam0": 76, "frame_cam2": 76, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.7, "timestamp_cam2": 7.7, "dt": 0.0, "frame_cam0": 77, "frame_cam2": 77, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.8, "timestamp_cam2": 7.8, "dt": 0.0, "frame_cam0": 78, "frame_cam2": 78, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 7.9, "timestamp_cam2": 7.9, "dt": 0.0, "frame_cam0": 79, "frame_cam2": 79, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.0, "timestamp_cam2": 8.0, "dt": 0.0, "frame_cam0": 80, "frame_cam2": 80, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.1, "timestamp_cam2": 8.1, "dt": 0.0, "frame_cam0": 81, "frame_cam2": 81, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.2, "timestamp_cam2": 8.2, "dt": 0.0, "frame_cam0": 82, "frame_cam2": 82, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.3, "timestamp_cam2": 8.3, "dt": 0.0, "frame_cam0": 83, "frame_cam2": 83, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.4, "timestamp_cam2": 8.4, "dt": 0.0, "frame_cam0": 84, "frame_cam2": 84, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.5, "timestamp_cam2": 8.5, "dt": 0.0, "frame_cam0": 85, "frame_cam2": 85, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.6, "timestamp_cam2": 8.6, "dt": 0.0, "frame_cam0": 86, "frame_cam2": 86, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.7, "timestamp_cam2": 8.7, "dt": 0.0, "frame_cam0": 87, "frame_cam2": 87, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.8, "timestamp_cam2": 8.8, "dt": 0.0, "frame_cam0": 88, "frame_cam2": 88, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 8.9, "timestamp_cam2": 8.9, "dt": 0.0, "frame_cam0": 89, "frame_cam2": 89, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.0, "timestamp_cam2": 9.0, "dt": 0.0, "frame_cam0": 90, "frame_cam2": 90, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.1, "timestamp_cam2": 9.1, "dt": 0.0, "frame_cam0": 91, "frame_cam2": 91, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.2, "timestamp_cam2": 9.2, "dt": 0.0, "frame_cam0": 92, "frame_cam2": 92, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.3, "timestamp_cam2": 9.3, "dt": 0.0, "frame_cam0": 93, "frame_cam2": 93, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.4, "timestamp_cam2": 9.4, "dt": 0.0, "frame_cam0": 94, "frame_cam2": 94, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.5, "timestamp_cam2": 9.5, "dt": 0.0, "frame_cam0": 95, "frame_cam2": 95, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.6, "timestamp_cam2": 9.6, "dt": 0.0, "frame_cam0": 96, "frame_cam2": 96, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.7, "timestamp_cam2": 9.7, "dt": 0.0, "frame_cam0": 97, "frame_cam2": 97, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.8, "timestamp_cam2": 9.8, "dt": 0.0, "frame_cam0": 98, "frame_cam2": 98, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 9.9, "timestamp_cam2": 9.9, "dt": 0.0, "frame_cam0": 99, "frame_cam2": 99, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.0, "timestamp_cam2": 10.0, "dt": 0.0, "frame_cam0": 100, "frame_cam2": 100, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.1, "timestamp_cam2": 10.1, "dt": 0.0, "frame_cam0": 101, "frame_cam2": 101, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.2, "timestamp_cam2": 10.2, "dt": 0.0, "frame_cam0": 102, "frame_cam2": 102, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.3, "timestamp_cam2": 10.3, "dt": 0.0, "frame_cam0": 103, "frame_cam2": 103, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.4, "timestamp_cam2": 10.4, "dt": 0.0, "frame_cam0": 104, "frame_cam2": 104, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.5, "timestamp_cam2": 10.5, "dt": 0.0, "frame_cam0": 105, "frame_cam2": 105, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.6, "timestamp_cam2": 10.6, "dt": 0.0, "frame_cam0": 106, "frame_cam2": 106, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.7, "timestamp_cam2": 10.7, "dt": 0.0, "frame_cam0": 107, "frame_cam2": 107, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.8, "timestamp_cam2": 10.8, "dt": 0.0, "frame_cam0": 108, "frame_cam2": 108, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 10.9, "timestamp_cam2": 10.9, "dt": 0.0, "frame_cam0": 109, "frame_cam2": 109, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.0, "timestamp_cam2": 11.0, "dt": 0.0, "frame_cam0": 110, "frame_cam2": 110, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.1, "timestamp_cam2": 11.1, "dt": 0.0, "frame_cam0": 111, "frame_cam2": 111, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.2, "timestamp_cam2": 11.2, "dt": 0.0, "frame_cam0": 112, "frame_cam2": 112, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.3, "timestamp_cam2": 11.3, "dt": 0.0, "frame_cam0": 113, "frame_cam2": 113, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.4, "timestamp_cam2": 11.4, "dt": 0.0, "frame_cam0": 114, "frame_cam2": 114, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.5, "timestamp_cam2": 11.5, "dt": 0.0, "frame_cam0": 115, "frame_cam2": 115, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.6, "timestamp_cam2": 11.6, "dt": 0.0, "frame_cam0": 116, "frame_cam2": 116, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.7, "timestamp_cam2": 11.7, "dt": 0.0, "frame_cam0": 117, "frame_cam2": 117, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.8, "timestamp_cam2": 11.8, "dt": 0.0, "frame_cam0": 118, "frame_cam2": 118, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 11.9, "timestamp_cam2": 11.9, "dt": 0.0, "frame_cam0": 119, "frame_cam2": 119, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.0, "timestamp_cam2": 12.0, "dt": 0.0, "frame_cam0": 120, "frame_cam2": 120, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.1, "timestamp_cam2": 12.1, "dt": 0.0, "frame_cam0": 121, "frame_cam2": 121, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.2, "timestamp_cam2": 12.2, "dt": 0.0, "frame_cam0": 122, "frame_cam2": 122, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.3, "timestamp_cam2": 12.3, "dt": 0.0, "frame_cam0": 123, "frame_cam2": 123, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.4, "timestamp_cam2": 12.4, "dt": 0.0, "frame_cam0": 124, "frame_cam2": 124, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.5, "timestamp_cam2": 12.5, "dt": 0.0, "frame_cam0": 125, "frame_cam2": 125, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.6, "timestamp_cam2": 12.6, "dt": 0.0, "frame_cam0": 126, "frame_cam2": 126, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.7, "timestamp_cam2": 12.7, "dt": 0.0, "frame_cam0": 127, "frame_cam2": 127, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.8, "timestamp_cam2": 12.8, "dt": 0.0, "frame_cam0": 128, "frame_cam2": 128, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 12.9, "timestamp_cam2": 12.9, "dt": 0.0, "frame_cam0": 129, "frame_cam2": 129, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.0, "timestamp_cam2": 13.0, "dt": 0.0, "frame_cam0": 130, "frame_cam2": 130, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.1, "timestamp_cam2": 13.1, "dt": 0.0, "frame_cam0": 131, "frame_cam2": 131, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.2, "timestamp_cam2": 13.2, "dt": 0.0, "frame_cam0": 132, "frame_cam2": 132, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.3, "timestamp_cam2": 13.3, "dt": 0.0, "frame_cam0": 133, "frame_cam2": 133, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.4, "timestamp_cam2": 13.4, "dt": 0.0, "frame_cam0": 134, "frame_cam2": 134, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.5, "timestamp_cam2": 13.5, "dt": 0.0, "frame_cam0": 135, "frame_cam2": 135, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.6, "timestamp_cam2": 13.6, "dt": 0.0, "frame_cam0": 136, "frame_cam2": 136, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.7, "timestamp_cam2": 13.7, "dt": 0.0, "frame_cam0": 137, "frame_cam2": 137, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.8, "timestamp_cam2": 13.8, "dt": 0.0, "frame_cam0": 138, "frame_cam2": 138, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 13.9, "timestamp_cam2": 13.9, "dt": 0.0, "frame_cam0": 139, "frame_cam2": 139, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.0, "timestamp_cam2": 14.0, "dt": 0.0, "frame_cam0": 140, "frame_cam2": 140, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.1, "timestamp_cam2": 14.1, "dt": 0.0, "frame_cam0": 141, "frame_cam2": 141, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.2, "timestamp_cam2": 14.2, "dt": 0.0, "frame_cam0": 142, "frame_cam2": 142, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.3, "timestamp_cam2": 14.3, "dt": 0.0, "frame_cam0": 143, "frame_cam2": 143, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.4, "timestamp_cam2": 14.4, "dt": 0.0, "frame_cam0": 144, "frame_cam2": 144, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.5, "timestamp_cam2": 14.5, "dt": 0.0, "frame_cam0": 145, "frame_cam2": 145, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.6, "timestamp_cam2": 14.6, "dt": 0.0, "frame_cam0": 146, "frame_cam2": 146, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.7, "timestamp_cam2": 14.7, "dt": 0.0, "frame_cam0": 147, "frame_cam2": 147, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.8, "timestamp_cam2": 14.8, "dt": 0.0, "frame_cam0": 148, "frame_cam2": 148, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 14.9, "timestamp_cam2": 14.9, "dt": 0.0, "frame_cam0": 149, "frame_cam2": 149, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.0, "timestamp_cam2": 15.0, "dt": 0.0, "frame_cam0": 150, "frame_cam2": 150, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.1, "timestamp_cam2": 15.1, "dt": 0.0, "frame_cam0": 151, "frame_cam2": 151, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.2, "timestamp_cam2": 15.2, "dt": 0.0, "frame_cam0": 152, "frame_cam2": 152, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.3, "timestamp_cam2": 15.3, "dt": 0.0, "frame_cam0": 153, "frame_cam2": 153, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.4, "timestamp_cam2": 15.4, "dt": 0.0, "frame_cam0": 154, "frame_cam2": 154, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.5, "timestamp_cam2": 15.5, "dt": 0.0, "frame_cam0": 155, "frame_cam2": 155, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.6, "timestamp_cam2": 15.6, "dt": 0.0, "frame_cam0": 156, "frame_cam2": 156, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.7, "timestamp_cam2": 15.7, "dt": 0.0, "frame_cam0": 157, "frame_cam2": 157, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.8, "timestamp_cam2": 15.8, "dt": 0.0, "frame_cam0": 158, "frame_cam2": 158, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 15.9, "timestamp_cam2": 15.9, "dt": 0.0, "frame_cam0": 159, "frame_cam2": 159, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.0, "timestamp_cam2": 16.0, "dt": 0.0, "frame_cam0": 160, "frame_cam2": 160, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.1, "timestamp_cam2": 16.1, "dt": 0.0, "frame_cam0": 161, "frame_cam2": 161, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.2, "timestamp_cam2": 16.2, "dt": 0.0, "frame_cam0": 162, "frame_cam2": 162, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.3, "timestamp_cam2": 16.3, "dt": 0.0, "frame_cam0": 163, "frame_cam2": 163, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.4, "timestamp_cam2": 16.4, "dt": 0.0, "frame_cam0": 164, "frame_cam2": 164, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.5, "timestamp_cam2": 16.5, "dt": 0.0, "frame_cam0": 165, "frame_cam2": 165, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.6, "timestamp_cam2": 16.6, "dt": 0.0, "frame_cam0": 166, "frame_cam2": 166, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.7, "timestamp_cam2": 16.7, "dt": 0.0, "frame_cam0": 167, "frame_cam2": 167, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.8, "timestamp_cam2": 16.8, "dt": 0.0, "frame_cam0": 168, "frame_cam2": 168, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 16.9, "timestamp_cam2": 16.9, "dt": 0.0, "frame_cam0": 169, "frame_cam2": 169, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.0, "timestamp_cam2": 17.0, "dt": 0.0, "frame_cam0": 170, "frame_cam2": 170, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.1, "timestamp_cam2": 17.1, "dt": 0.0, "frame_cam0": 171, "frame_cam2": 171, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.2, "timestamp_cam2": 17.2, "dt": 0.0, "frame_cam0": 172, "frame_cam2": 172, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.3, "timestamp_cam2": 17.3, "dt": 0.0, "frame_cam0": 173, "frame_cam2": 173, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.4, "timestamp_cam2": 17.4, "dt": 0.0, "frame_cam0": 174, "frame_cam2": 174, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.5, "timestamp_cam2": 17.5, "dt": 0.0, "frame_cam0": 175, "frame_cam2": 175, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.6, "timestamp_cam2": 17.6, "dt": 0.0, "frame_cam0": 176, "frame_cam2": 176, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.7, "timestamp_cam2": 17.7, "dt": 0.0, "frame_cam0": 177, "frame_cam2": 177, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.8, "timestamp_cam2": 17.8, "dt": 0.0, "frame_cam0": 178, "frame_cam2": 178, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 17.9, "timestamp_cam2": 17.9, "dt": 0.0, "frame_cam0": 179, "frame_cam2": 179, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.0, "timestamp_cam2": 18.0, "dt": 0.0, "frame_cam0": 180, "frame_cam2": 180, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.1, "timestamp_cam2": 18.1, "dt": 0.0, "frame_cam0": 181, "frame_cam2": 181, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.2, "timestamp_cam2": 18.2, "dt": 0.0, "frame_cam0": 182, "frame_cam2": 182, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.3, "timestamp_cam2": 18.3, "dt": 0.0, "frame_cam0": 183, "frame_cam2": 183, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.4, "timestamp_cam2": 18.4, "dt": 0.0, "frame_cam0": 184, "frame_cam2": 184, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.5, "timestamp_cam2": 18.5, "dt": 0.0, "frame_cam0": 185, "frame_cam2": 185, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.6, "timestamp_cam2": 18.6, "dt": 0.0, "frame_cam0": 186, "frame_cam2": 186, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.7, "timestamp_cam2": 18.7, "dt": 0.0, "frame_cam0": 187, "frame_cam2": 187, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.8, "timestamp_cam2": 18.8, "dt": 0.0, "frame_cam0": 188, "frame_cam2": 188, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 18.9, "timestamp_cam2": 18.9, "dt": 0.0, "frame_cam0": 189, "frame_cam2": 189, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.0, "timestamp_cam2": 19.0, "dt": 0.0, "frame_cam0": 190, "frame_cam2": 190, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.1, "timestamp_cam2": 19.1, "dt": 0.0, "frame_cam0": 191, "frame_cam2": 191, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.2, "timestamp_cam2": 19.2, "dt": 0.0, "frame_cam0": 192, "frame_cam2": 192, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.3, "timestamp_cam2": 19.3, "dt": 0.0, "frame_cam0": 193, "frame_cam2": 193, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.4, "timestamp_cam2": 19.4, "dt": 0.0, "frame_cam0": 194, "frame_cam2": 194, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.5, "timestamp_cam2": 19.5, "dt": 0.0, "frame_cam0": 195, "frame_cam2": 195, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}
+{"timestamp": 19.6, "timestamp_cam2": 19.6, "dt": 0.0, "frame_cam0": 196, "frame_cam2": 196, "joint_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], "points": 17}

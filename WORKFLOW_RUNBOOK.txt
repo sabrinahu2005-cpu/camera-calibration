@@ -1,0 +1,271 @@
+Workflow Runbook
+================
+
+你已經有內參，所以最快得到 3D 結果的流程是：
+
+```powershell
+python .\record_control_1.py run --tag people_d --secs 10 --fps 10 --pc_cam 0 --pi_cam 0 --enable-imu
+python .\match_joints_2.py --cam0 .\pc_pose_video\json\cam0_people_d.jsonl --cam2 .\pi_pose_video\json\cam2_people_d.jsonl --out .\data\cam_match_people_d.txt --tolerance 0.03
+python .\cal_xyzq_3.py --match .\data\cam_match_people_d.txt --k1 .\data\K0.txt --k2 .\data\K1.txt --out .\data\rt_quaternion_people_d.txt
+python .\imu_optimize_xyzq_7.py --xyzq_in .\data\rt_quaternion_people_d.txt --imu_csv .\pi_pose_video\imu\cam2_people_d_imu.csv --pi_timestamps .\pi_pose_video\timestamps\cam2_people_d.csv --out .\data\rt_quaternion_people_d_imu.txt --normalize_t
+python .\reconstruct_3d_quat_4_1.py --match .\data\cam_match_people_d.txt --rt_quat .\data\rt_quaternion_people_d_imu.txt --k1 .\data\K0.txt --k2 .\data\K1.txt --out .\output\people_d_3d.html --fps 10 --max_reproj 80 --min_keep 4
+```
+
+把 `people_d` 換成你的實驗名稱即可。
+
+如果沒有 IMU 或不想用 IMU，跳過第 4 行，最後一行改成：
+
+```powershell
+python .\reconstruct_3d_quat_4_1.py --match .\data\cam_match_people_d.txt --rt_quat .\data\rt_quaternion_people_d.txt --k1 .\data\K0.txt --k2 .\data\K1.txt --out .\output\people_d_3d.html --fps 10 --max_reproj 80 --min_keep 4
+```
+
+需要先確認相機畫面時：
+
+```powershell
+python .\preview_pc_then_pi.py --pc-cam 0 --pi-cam 0
+```
+
+檔案命名
+--------
+假設 tag 是 `people_d`：
+
+- PC 影片：`pc_pose_video/raw/cam0_people_d_raw.mp4`
+- Pi 影片：`pi_pose_video/raw/cam2_people_d_raw.mp4`
+- PC pose：`pc_pose_video/json/cam0_people_d.jsonl`
+- Pi pose：`pi_pose_video/json/cam2_people_d.jsonl`
+- match：`data/cam_match_people_d.txt`
+- 視覺 RT：`data/rt_quaternion_people_d.txt`
+- IMU RT：`data/rt_quaternion_people_d_imu.txt`
+- 3D HTML：`output/people_d_3d.html`
+- 3D MP4：`output/people_d_3d.mp4`
+
+已知內參檔
+----------
+目前文件假設你用：
+
+```text
+data/K0.txt      PC cam0 內參
+data/dist0.txt   PC cam0 畸變
+data/K1.txt      Pi cam2 內參
+data/dist1.txt   Pi cam2 畸變
+```
+
+如果你的檔名是 `0617K1.txt / 0617K2.txt`，就在指令裡替換 `--k1` 和 `--k2`。
+
+主要程式
+--------
+
+### record_control_1.py
+用途：雙機錄影，拉回 Pi 檔案，產生 pose jsonl。
+
+Input：
+- PC camera
+- Pi camera
+- optional IMU
+
+Output：
+- raw mp4
+- timestamp csv
+- pose jsonl
+- pose mp4
+- optional IMU csv
+
+常用：
+
+```powershell
+python .\record_control_1.py run --tag people_d --secs 10 --fps 10 --pc_cam 0 --pi_cam 0 --enable-imu
+```
+
+如果 Pi camera 等太久：
+
+```powershell
+python .\record_control_1.py run --tag people_d --ready-timeout 60 --enable-imu
+```
+
+### match_joints_2.py
+用途：把 cam0/cam2 的 pose jsonl 依 timestamp 配對。
+
+Input：
+- `pc_pose_video/json/cam0_<tag>.jsonl`
+- `pi_pose_video/json/cam2_<tag>.jsonl`
+
+Output：
+- `data/cam_match_<tag>.txt`
+
+常用：
+
+```powershell
+python .\match_joints_2.py --cam0 .\pc_pose_video\json\cam0_people_d.jsonl --cam2 .\pi_pose_video\json\cam2_people_d.jsonl --out .\data\cam_match_people_d.txt --tolerance 0.03
+```
+
+### cal_xyzq_3.py
+用途：用 matched 2D joints + K1/K2 估每幀 RT。
+
+Input：
+- `--match`
+- `--k1`
+- `--k2`
+
+Output：
+- `timestamp tx ty tz qx qy qz qw`
+
+常用：
+
+```powershell
+python .\cal_xyzq_3.py --match .\data\cam_match_people_d.txt --k1 .\data\K0.txt --k2 .\data\K1.txt --out .\data\rt_quaternion_people_d.txt
+```
+
+### imu_optimize_xyzq_7.py
+用途：用 Pi IMU 平滑/修正 RT。
+
+Input：
+- 視覺 RT
+- Pi IMU csv
+- Pi timestamp csv
+
+Output：
+- IMU 優化後 RT
+
+常用：
+
+```powershell
+python .\imu_optimize_xyzq_7.py --xyzq_in .\data\rt_quaternion_people_d.txt --imu_csv .\pi_pose_video\imu\cam2_people_d_imu.csv --pi_timestamps .\pi_pose_video\timestamps\cam2_people_d.csv --out .\data\rt_quaternion_people_d_imu.txt --normalize_t
+```
+
+### reconstruct_3d_quat_4_1.py
+用途：3D 重建，輸出 HTML/MP4/RT/npy。
+
+Input：
+- `--match`
+- `--rt_quat`
+- `--k1`
+- `--k2`
+
+Output：
+- `output/<name>.html`
+- `output/<name>.mp4`
+- `output/<name>_rt.txt`
+- `output/<name>_pts3d.npy`
+- `output/<name>_pts2d_cam0.npy`
+- `output/<name>_pts2d_cam2.npy`
+
+常用：
+
+```powershell
+python .\reconstruct_3d_quat_4_1.py --match .\data\cam_match_people_d.txt --rt_quat .\data\rt_quaternion_people_d_imu.txt --k1 .\data\K0.txt --k2 .\data\K1.txt --out .\output\people_d_3d.html --fps 10 --max_reproj 80 --min_keep 4
+```
+
+如果想看每幀重投影狀況：
+
+```powershell
+--debug_reproj
+```
+
+棋盤或 ArUco RT 可選流程
+-----------------------
+
+### chessboard_stereo_calibrate.py
+用途：如果影片中有棋盤，逐幀用棋盤算 RT。
+
+```powershell
+python .\chessboard_stereo_calibrate.py --cam1_video .\pc_pose_video\raw\cam0_people_d_raw.mp4 --cam2_video .\pi_pose_video\raw\cam2_people_d_raw.mp4 --k1 .\data\K0.txt --k2 .\data\K1.txt --dist1 .\data\dist0.txt --dist2 .\data\dist1.txt --tag .\output\people_d_chessboard --frame_step 1 --min_samples 6
+```
+
+Output：
+- `output/people_d_chessboard.txt`
+
+注意：
+- 只會輸出兩台都看得到棋盤的 frame。
+- 這個 RT 可以拿去當 `reconstruct_3d_quat_4_1.py --rt_quat`，但 timestamp 必須跟 match 對得上。
+
+### aruco1.py / aruco2.py / aruco3.py
+用途：用 ArUco marker 估 RT。
+
+不平滑：
+
+```powershell
+python .\aruco1.py --cam0 .\pc_pose_video\raw\cam0_people_d_raw.mp4 --cam2 .\pi_pose_video\raw\cam2_people_d_raw.mp4 --k1 .\data\K0.txt --k2 .\data\K1.txt --d1 .\data\dist0.txt --d2 .\data\dist1.txt --marker_size 0.194 --stride 1 --out .\data\rt_aruco_people_d_raw.txt
+```
+
+平滑：
+
+```powershell
+python .\aruco2.py --cam0 .\pc_pose_video\raw\cam0_people_d_raw.mp4 --cam2 .\pi_pose_video\raw\cam2_people_d_raw.mp4 --k1 .\data\K0.txt --k2 .\data\K1.txt --d1 .\data\dist0.txt --d2 .\data\dist1.txt --marker_size 0.194 --stride 1 --smooth 5 --out .\data\rt_aruco_people_d_smooth.txt
+```
+
+block 平滑：
+
+```powershell
+python .\aruco3.py --cam0 .\pc_pose_video\raw\cam0_people_d_raw.mp4 --cam2 .\pi_pose_video\raw\cam2_people_d_raw.mp4 --k1 .\data\K0.txt --k2 .\data\K1.txt --d1 .\data\dist0.txt --d2 .\data\dist1.txt --marker_size 0.194 --stride 1 --smooth 5 --out .\data\rt_aruco_people_d_block.txt
+```
+
+評估
+----
+
+### eval_xyzq_standalone_6.py
+用途：比較 estimated RT 和 reference RT，並算 reprojection。
+
+```powershell
+python .\eval_xyzq_standalone_6.py --k_cam0 .\data\K0.txt --k_cam2 .\data\K1.txt --xyzq_est .\output\people_d_3d_rt.txt --xyzq_aruco .\data\rt_aruco_people_d_raw.txt --pts3d_npy .\output\people_d_3d_pts3d.npy --pts2d_cam0_npy .\output\people_d_3d_pts2d_cam0.npy --pts2d_cam2_npy .\output\people_d_3d_pts2d_cam2.npy --camera both --output .\results\eval_people_d.txt --csv_output .\results\eval_people_d.csv
+```
+
+常見問題
+--------
+
+### `No reconstructed frames available after RT matching`
+原因通常是 `cam_match` timestamp 和 `rt_quat` timestamp 對不上。
+
+檢查：
+
+```powershell
+Get-Content .\data\cam_match_people_d.txt -TotalCount 5
+Get-Content .\data\rt_quaternion_people_d.txt -TotalCount 5
+```
+
+### `RT quaternion file not found`
+檢查 `--rt_quat` 路徑。常見錯誤是檔案在 `data`，但指到 `output`。
+
+### `K file not found`
+檢查內參檔名：
+
+```powershell
+Get-ChildItem .\data\K*.txt
+Get-ChildItem .\data\dist*.txt
+```
+
+### Pi camera timeout
+先預覽：
+
+```powershell
+python .\preview_pc_then_pi.py --pc-cam 0 --pi-cam 0
+```
+
+或錄影時加：
+
+```powershell
+--ready-timeout 60
+```
+
+
+new_eval_xyzq_standalone.py
+
+# (f) 完整 pipeline：批次 + JSON + CSV 全輸出
+python .\new_eval_xyzq_standalone.py `+brrh
+  --k_cam0 .\data\K0.txt `
+  --k_cam2 .\data\K1.txt `
+  --dist_cam0 .\data\dist0.txt `
+  --dist_cam2 .\data\dist1.txt `
+  --xyzq_est .\output\people_d_3d_rt.txt `
+  --xyzq_aruco .\data\rt_aruco_people_d_raw.txt `
+  --pts3d_npy .\output\people_d_3d_pts3d.npy `
+  --pts2d_cam0_npy .\output\people_d_3d_pts2d_cam0.npy `
+  --pts2d_cam2_npy .\output\people_d_3d_pts2d_cam2.npy `
+  --camera both `
+  --output .\results\eval_people_d.txt `
+  --csv_output .\results\eval_people_d.csv
+^
+]]  --save_json .\results\full_payload.json3
+
+
+
+

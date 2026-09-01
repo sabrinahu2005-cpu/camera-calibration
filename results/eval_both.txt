@@ -1,0 +1,10 @@
+| Metric                          | Value        |
+| ------------------------------- | ------------ |
+| Frames Evaluated                | 1            |
+| Avg Rotation Error (deg)        | 34.856462    |
+| Avg Translation Distance        | 1.303069     |
+| Avg Translation Direction (deg) | 65.349260    |
+| Avg Reprojection RMSE cam0 (px) | 22527.082445 |
+| Avg Reprojection RMSE cam2 (px) | 11867.416607 |
+| Avg Points Used cam0            | 1088.000000  |
+| Avg Points Used cam2            | 1088.000000  |
